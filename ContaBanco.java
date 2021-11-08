@@ -2,6 +2,7 @@ import java.util.Scanner;
 
 public class ContaBanco {
 	Scanner ler = new Scanner(System.in);
+	
 	private int numConta;
 	private String nomeAgencia;
 	private int numAgencia;
@@ -258,6 +259,8 @@ public class ContaBanco {
 		System.out.println("Saldo: " + this.getSaldo());
 		System.out.println("Tipo: " + this.getTipo());		
 		System.out.println("Status: " + this.isStatus());
+		
+		optar();
 	}
 	
 //	OPÇÃO DE CONTINUAR OU NÃO
